@@ -1,9 +1,22 @@
 # hello-deepseek
 
-绗竴涓窇閫氱殑绀轰緥椤圭洰銆?
-- 鐢?VS Code 鎵撳紑杩欎釜鏂囦欢澶癸細`code D:\code\hello-deepseek`
-- 杩愯锛歚python main.py`
+第一个跑通的示例项目，用来验证环境。
 
-## 杩欎釜椤圭洰楠岃瘉浜?- Python 3.13 鍙敤
-- Git 鍙敤
-- VS Code + Continue(DeepSeek) 鍙敤
+## 怎么运行
+
+```powershell
+cd D:\code\hello-deepseek
+python main.py
+```
+
+或者在 VS Code 里打开这个文件夹，按 `F5`。
+
+## 这个项目验证了什么
+
+- Python 3.13 可用
+- Git 可用（已初始化，有第一次提交）
+- VS Code + Continue（DeepSeek）可用
+
+## 下一步
+
+把这个文件夹当成模板，复制一份改名，就是一个新项目。

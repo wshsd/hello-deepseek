@@ -1,6 +1,7 @@
-"""hello-deepseek: 鐜鑷鑴氭湰銆?""
-import sys
+"""hello-deepseek: 环境自检脚本。"""
+
 import platform
+import sys
 
 
 def check() -> dict:
@@ -12,7 +13,7 @@ def check() -> dict:
 
 
 if __name__ == "__main__":
-    print("=== 鐜鑷 ===")
+    print("=== 环境自检 ===")
     for k, v in check().items():
         print(f"{k:12}: {v}")
-    print("=== 涓€鍒囨甯?===")
+    print("=== 一切正常 ===")
